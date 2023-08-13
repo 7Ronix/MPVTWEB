@@ -1,0 +1,224 @@
+<!-- Navbar 1 -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid" style="position: relative; background: #623707; margin-top: -9px;">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 8rem;">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" styaria-current="page" href="#">Regd No:- 41831901735</a>
+                </li>
+                <div class="d-flex" style="height: 40px; background-color: aliceblue;">
+                    <div class="vr"></div>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">+1800-123-123</a>
+                </li>
+            </ul>
+            <div class="d-flex" style="height: 40px; background-color: aliceblue;">
+                <div class="vr"></div>
+            </div>
+            <form class="d-flex text-white" role="search">
+                <input class="form-control me-2 text-white"
+                    style="background: #ffffffc5; height: 30px; margin-top: 10px; margin-bottom: 10px; margin-left: 765px"
+                    type="search" placeholder="Search " aria-label="Search">
+                <button class="btn btn-outline text-white" type="submit"><i class="bi bi-search"></i></button>
+
+            </form>
+            <div class="d-flex" style="height: 40px; background-color: aliceblue;">
+                <div class="vr"></div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            styaria-current="page" href="#"><i class="bi bi-person text-white"></i> Login</a>
+                    </li>
+                    <div class="d-flex" style="height: 40px; background-color: aliceblue;">
+                        <div class="vr"></div>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" routerLink="/registration">Register</a>
+                    </li>
+                </ul>
+                <!-- <div class="d-flex"  style="height: 40px; background-color: aliceblue;">
+                    <div class="vr"></div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal Title</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="formsix-pos">
+                    <div class="form-group i-email">
+                        <input type="email" class="form-control" required="" id="email" name="email"
+                            placeholder="Email Address *">
+                    </div>
+                    <div class="formsix-e">
+                        <div class="form-group i-password">
+                            <input type="password" class="form-control" required="" id="password" name="password"
+                                placeholder="Password *">
+                        </div>
+                        <a routerLink="/forgotpass" class="forget_password">
+                            Forgot
+                            Password
+                        </a>
+                    </div>
+                </div>
+                <div class="hs_effect_btn">
+                    <input type="submit" id="login" name="login" class="btn btn-info btn_size" value="Login">
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <div class="sign_up_message ">
+                    <p>Don't have
+                        an
+                        account
+                        ?
+                        <a routerLink="/registration" class="signup_color">
+                            Sign
+                            up
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Navbar 2 -->
+<div class="d-flex">
+    <nav>
+        <ul class="nav nav-underline" style="margin-left: 25rem;">
+
+            <div class="nav nav-underline" style="margin-top: -9px;">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#"><img src="../../assets/logo1.png" alt="logo1"></a>
+                </li>
+            </div>
+            <div class="nav nav-underline" style="margin-top: 30px;">
+                <li class="nav-item">
+                    <a class="nav-link link-dark" href="/home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark" href="/about">About Trust</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark" href="/horoscope">Horoscope</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark" href="/services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark" href="/products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark" href="/members">Members</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark" href="/gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark" href="/contact">Contact</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+    <div>
+        <ul class="s1 d-flex">
+            <li class="s2"><a href="https://www.facebook.com/maharshiparashara.vedictrust.5"><i
+                        class="bi bi-facebook f1"></i></a></li>
+            <li class="s2"><a href="https://www.youtube.com/channel/UCvIHJdjpKIBtU0G-39DsIyA"><i
+                        class="bi bi-youtube y1 q1"></i></a>
+            </li>
+            <li class="s2"><a href="https://twitter.com/VedicTrust"><i class="bi bi-twitter q2"></i></a></li>
+
+            <li class="s2"><a href="https://www.instagram.com/accounts/login/?next=/mpvtrust2019/"><i
+                        class="bi bi-instagram q3"></i></a></li>
+        </ul>
+    </div>
+    <div class="donate">
+        <button type="button" routerLink="/donate" class="btn btn-warning">Donate Now</button>
+    </div>
+
+</div>
+
+
+
+<!-- Navbar 2 -->
+<!-- <ul class="nav nav-underline" style="margin-left: 25rem;">
+
+    <div class="nav nav-underline" style="margin-top: -9px;">
+        <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#"><img src="../../assets/logo1.png" alt="logo1"></a>
+        </li>
+    </div>
+    <div class="nav nav-underline" style="margin-top: 30px;">
+        <li class="nav-item">
+            <a class="nav-link link-dark" href="/home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link link-dark" href="/about">About Trust</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link link-dark" href="/horoscope">Horoscope</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link link-dark" href="/services">Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link link-dark" href="/products">Products</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link link-dark" href="/members">Members</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link link-dark" href="/gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link link-dark" href="/contact">Contact</a>
+        </li>
+    </div>
+    <div class="nav nav-underline" style="margin-top: 30px; margin-left: 5rem;">
+        <li class="nav-item">
+            <a class="nav-link link-dark" href="#"><i class="bi bi-facebook" style="color: #3434cb;"></i></a>
+        </li>
+    </div>
+    <div class="nav nav-underline" style="margin-top: 30px">
+        <li class="nav-item">
+            <a class="nav-link link-dark" href="#"><i class="bi bi-youtube" style="color: red;"></i></a>
+        </li>
+    </div>
+    <div class="nav nav-underline" style="margin-top: 30px">
+        <li class="nav-item">
+            <a class="nav-link link-dark" href="#"><i class="bi bi-twitter" style="color: #30d1d1;"></i></a>
+        </li>
+    </div>
+    <div class="nav nav-underline" style="margin-top: 30px">
+        <li class="nav-item">
+            <a class="nav-link link-dark" href="#"><i class="bi bi-instagram" style="color: #bc1888;"></i></a>
+        </li>
+    </div>
+    <div class="nav nav-underline" style="margin-top: 30px; height: 33px;">
+        <button type="button" routerLink="/donate" class="btn btn-warning">Donate Now</button>
+    </div>
+</ul> -->

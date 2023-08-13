@@ -1,0 +1,114 @@
+.hs_title_img_overlay {
+    background: url(../../assets/ser.jpg) 50% 0 repeat-y;
+    background-position: center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 155px;
+    margin-bottom: 30px;
+}
+
+.title_wrapper {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.about_h2 {
+    position: absolute;
+    z-index: 1;
+    top: 79px;
+    left: 688px;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.hs_indx_title_right_wrapper {
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 155px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #623707;
+    padding: 8px 0px 4px;
+
+}
+
+/* form  */
+.m_l{
+    margin: 389px;
+}
+.border1 {
+    border: 1px solid #e2e2eb;
+    border-radius: 5px;
+    padding: 30px 33px;
+    background-color: whitesmoke;
+}
+textarea{
+    width: 522px;
+    height: 57px;
+}
+
+.margin_updown {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    color: #797979;
+    line-height: 23px;
+    font-size: 16px;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075); */
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    /* -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s; */
+    /* -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; */
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.m_r{
+    margin-right: 9px;
+}
+    

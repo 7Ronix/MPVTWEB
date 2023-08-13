@@ -1,0 +1,138 @@
+.hs_title_img_overlay {
+    background: url(../../assets/ser.jpg) 50% 0 repeat-y;
+    background-position: center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 155px;
+}
+
+.title_wrapper {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.about_h2 {
+    position: absolute;
+    z-index: 1;
+    top: 90px;
+    left: 821px;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.hs_indx_title_right_wrapper {
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 155px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #623707;
+    padding: 8px 0px 4px;
+}
+
+
+/* containt */
+.hs_about_indx_main_wrapper {
+    float: left;
+    width: 100%;
+    /* padding-top: 82px; */
+    /* padding-bottom: 50px; */
+}
+.about_page_wrapper {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.hs_about_left_img_wrapper {
+float: left;
+width: 100%;
+}
+.hs_about_left_img_wrapper img {
+    width: 93%;
+}
+.hs_about_heading_main_wrapper {
+    text-align: left;
+}
+
+
+.hs_about_heading_wrapper {
+float: left;
+width: 100%;
+display: inline-block;
+}
+.hs_about_heading_wrapper h2 span {
+    font-weight: bold;
+}
+
+.hs_about_heading_wrapper h2 {
+font-size: 40px;
+font-weight: 100;
+color: #000000;
+}
+.hs_about_heading_wrapper h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.hs_about_indx_main_wrapper .hs_about_heading_wrapper h4 span:after {
+    width: 40px;
+}
+.hs_about_heading_wrapper h4 span:after {
+    content: '';
+    border: 1px solid #d8d8d8;
+    width: 20px;
+    position: absolute;
+    left: 8px;
+    top: 3px;
+}
+.hs_about_heading_wrapper h4 span {
+width: 8px;
+height: 8px;
+border-radius: 50px;
+background: #623707;
+display: inline-block;
+position: relative;
+}
+.hs_about_right_cont_wrapper {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+}
+p {
+    margin: 0;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: #0000009c;
+} 
+ strong {
+    font-weight: 700;
+}
+
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    color: #797979;
+    overflow-x: hidden;
+}
